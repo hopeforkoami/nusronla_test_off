@@ -41,7 +41,7 @@ import Programme from "./components/nusronla/Programme";
 import Niveau from "./components/nusronla/Niveau";
 import Exercice from "./components/nusronla/Exercice";
 import Chapitre from "./components/nusronla/Chapitre";
-import FourZeroFour from "./components/nusronla/FourZeroFour";
+// import FourZeroFour from "./components/nusronla/FourZeroFour";
 
 
 // import Crud from './pages/Crud';
@@ -321,7 +321,6 @@ const App = () => {
                     <Route path="/niveau" component={Niveau} />
                     <Route path="/chapitre" component={Chapitre} />
                     <Route path="/exercice" component={Exercice} />
-                    <Route  component={FourZeroFour} />
                     {/* <Route path="/input" component={InputDemo} />
                     <Route path="/floatlabel" component={FloatLabelDemo} />
                     <Route path="/invalidstate" component={InvalidStateDemo} />
